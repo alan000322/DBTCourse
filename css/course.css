@@ -1,0 +1,7 @@
+.list-group-item.active {
+    background-color: #064E3B;
+    border-style: groove;
+    border-color: #0dc795;
+    border-width: 1px;
+    border-right-width: 10px;
+}

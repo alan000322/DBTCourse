@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DBT Course Guide</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap-4.2.1/dist/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="tailwind.css">-->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="bootstrapmodify.css">
+    <link rel="stylesheet" href="css/course.css">
+    <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+    
+    <style>
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-xl navbar-light mb-5">
+            <a class="navbar-brand " href="#">DBT COURSE</a>
+            <button class="navbar-toggler btn-sm" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon btn-sm"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">  <!--m?-auto 推移-->
+                    <li class="nav-item mx-2"> <!--active-->
+                    <a class="nav-link" href="index.html">主頁<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active mx-2">
+                        <a class="nav-link" href="course.html">生科系修課指南</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="general.html">通識大拼盤</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="cross.html">生科v.s.跨域生存指南</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link disabled" href="sys.html">模擬選課系統</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="download.html">畢業預審資料下載</a>
+                    </li>
+                </ul>
+                <!--
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="全站搜索" aria-label="Search">
+                    <button class="btn btn-sm btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                -->
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <!--<div class="text-center text-4xl font-light">專業領域</div>-->
+        <div class="row">
+            <div class="col-2">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="bg-green-50  text-green-900 hover:bg-green-900 hover:text-green-50 list-group-item list-group-item-action" role="tab" data-toggle="list" aria-controls="Bioinformatics"     href="#Bioinformatics"    >計算生物與生物資訊</a>
+                    <a class="bg-green-50  text-green-900 hover:bg-green-900 hover:text-green-50 list-group-item list-group-item-action" role="tab" data-toggle="list" aria-controls="Genetics"           href="#Genetics"          >計算生物與生物資訊 - 遺傳與基因體</a>
+                    <a class="bg-green-100 text-green-900 hover:bg-green-900 hover:text-green-50 list-group-item list-group-item-action" role="tab" data-toggle="list" aria-controls="Biophysics"         href="#Biophysics"        >化學生物與生物物理</a>
+                    <a class="bg-green-200 text-green-900 hover:bg-green-900 hover:text-green-50 list-group-item list-group-item-action" role="tab" data-toggle="list" aria-controls="Neurobiology"       href="#Neurobiology"      >神經生物</a>
+                    <a class="bg-green-300 text-green-900 hover:bg-green-900 hover:text-green-50 list-group-item list-group-item-action" role="tab" data-toggle="list" aria-controls="Immunology "        href="#Immunology "       >腫瘤免疫與癌症生物</a>
+                    <a class="bg-green-400 text-green-900 hover:bg-green-900 hover:text-green-50 list-group-item list-group-item-action" role="tab" data-toggle="list" aria-controls="Bioinstrumentation" href="#Bioinstrumentation">生物工程 - 生物儀器技術</a>
+                    <a class="bg-green-400 text-green-900 hover:bg-green-900 hover:text-green-50 list-group-item list-group-item-action" role="tab" data-toggle="list" aria-controls="Engineering"        href="#Engineering"       >生物工程 - 基因工程與合成生物學</a>
+                </div>                
+            </div>
+            <div class="col-10">
+                <div class="tab-content" id="nav-tabContent">
+                    <!--計算生物學、生物資訊-->
+                    <div class="tab-pane fade show active" id="Bioinformatics"     role="tabpanel" aria-labelledby="Bioinformatics"    >
+                        <div class="row text-center">
+                            <div class="text-xl py-2">建議修課順序</div>
+                            <div class="col-12">
+                                <div id="accordion">
+                                    <div class="card">
+                                      <div class="card-header bg-green-50" id="headingOne">
+                                        <h5 class="mb-0">
+                                          <button class="btn btn-link text-green-600 no-underline focus:no-underline hover:text-green-900 hover:no-underline" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Collapsible Group Item #1
+                                          </button>
+                                        </h5>
+                                      </div>
+                                  
+                                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header bg-green-50" id="headingTwo">
+                                        <h5 class="mb-0">
+                                          <button class="btn btn-link collapsed text-green-600 no-underline focus:no-underline hover:text-green-900 hover:no-underline" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Collapsible Group Item #2
+                                          </button>
+                                        </h5>
+                                      </div>
+                                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header bg-green-50" id="headingThree">
+                                        <h5 class="mb-0">
+                                          <button class="btn btn-link collapsed text-green-600 no-underline focus:no-underline hover:text-green-900 hover:no-underline" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Collapsible Group Item #3
+                                          </button>
+                                        </h5>
+                                      </div>
+                                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                        <div class="card-body">
+                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                              
+                            <table class="my-5 table table-sm table-hover bg-green-50" id="vue-Bioinformatics">
+                                <thead class="thead-default">
+                                <tr>
+                                    <th>永久課號</th>
+                                    <th>課程名稱</th>
+                                    <th>課程類別</th>
+                                    <th>學分</th>
+                                    <th>時間</th>
+                                    <th>近期開課學期</th>
+                                    <th>課程綱要</th>
+                                    <th>備註</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr v-for="(info,index) in infos">
+                                    <td>{{info.code}}</td>
+                                    <td>{{info.name}}</td>
+                                    <td>{{info.category}}</td>
+                                    <td>{{info.credit}}</td>
+                                    <td>{{info.time}}</td>
+                                    <td>{{info.seme}}</td>
+                                    <td>{{info.urls}}</td>
+                                    <td>{{info.other}}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade"             id="Genetics"           role="tabpanel" aria-labelledby="Genetics"          >
+                        <div class="row text-center">
+                            <table class="table table-sm table-hover table-success" id="vue-Genetics">
+                                <thead class="thead-default">
+                                <tr>
+                                    <th>永久課號</th>
+                                    <th>課程名稱</th>
+                                    <th>課程類別</th>
+                                    <th>學分</th>
+                                    <th>時間</th>
+                                    <th>近期開課學期</th>
+                                    <th>課程綱要</th>
+                                    <th>備註</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr v-for="(info,index) in infos">
+                                    <td>{{info.code}}</td>
+                                    <td>{{info.name}}</td>
+                                    <td>{{info.category}}</td>
+                                    <td>{{info.credit}}</td>
+                                    <td>{{info.time}}</td>
+                                    <td>{{info.seme}}</td>
+                                    <td>{{info.urls}}</td>
+                                    <td>{{info.other}}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>         
+                    </div>
+                    <div class="tab-pane fade"  id="Biophysics"         role="tabpanel" aria-labelledby="Biophysics"        >
+                        <div class="row text-center">
+                            <table class="table table-sm table-hover table-success" id="vue-Biophysics">
+                                <thead class="thead-default">
+                                <tr>
+                                    <th>永久課號</th>
+                                    <th>課程名稱</th>
+                                    <th>課程類別</th>
+                                    <th>學分</th>
+                                    <th>時間</th>
+                                    <th>近期開課學期</th>
+                                    <th>課程綱要</th>
+                                    <th>備註</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr v-for="(info,index) in infos">
+                                    <td>{{info.code}}</td>
+                                    <td>{{info.name}}</td>
+                                    <td>{{info.category}}</td>
+                                    <td>{{info.credit}}</td>
+                                    <td>{{info.time}}</td>
+                                    <td>{{info.seme}}</td>
+                                    <td>{{info.urls}}</td>
+                                    <td>{{info.other}}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade"  id="Neurobiology"       role="tabpanel" aria-labelledby="Neurobiology"      >...</div>
+                    <div class="tab-pane fade"  id="Immunology "        role="tabpanel" aria-labelledby="Immunology "       >...</div>
+                    <div class="tab-pane fade"  id="Bioinstrumentation" role="tabpanel" aria-labelledby="Bioinstrumentation">...</div>
+                    <div class="tab-pane fade"  id="Engineering"        role="tabpanel" aria-labelledby="Engineering"       >...</div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.2.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="script.js"></script>
+    <script src="js/course.js"></script>
+    <script src="js/mapBioinformatics.js"></script>
+    
+
+</body>
+</html>
